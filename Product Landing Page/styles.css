@@ -1,0 +1,143 @@
+body{
+    margin: 0;
+    background-color: rgb(0, 0, 0);
+  }
+  header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 0.5rem;
+    background: linear-gradient(to right, #81899c,#3f4c6b);
+  }
+  .nav-bar{
+    display: flex;
+    align-items: center;
+    position: fixed;
+  }
+  nav ul{
+    display: flex;
+  }
+  
+  nav ul li{
+    list-style: none;
+    margin: 0 10px;
+  }
+  
+  nav ul li a{
+    text-decoration: none;
+    color: #ddd;
+    padding: 5px;
+    transition: .3s ease;
+    position: relative;
+  }
+  
+  img{
+    max-width: 50px;
+    height: 30px;
+    margin: 0 5px;
+  }
+  .logo a{
+    margin-left: 0px;
+    margin-bottom: 50px;
+    font-size: 1.75rem;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  h1{
+    text-align: center;
+    color: white;
+  }
+  
+  footer{
+    color: white;
+    border: solid 5px;
+    position: relative;
+    
+  }
+  footer a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+  }
+  .products{
+    display: flex;
+  }
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 3px solid #e6e6e6;
+    border-radius: 3px;
+  }
+  
+  .product > .level {
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+  }
+  
+  
+  .product > h2 {
+    margin-top: 15px;
+    color: #ddd;
+  }
+  
+  .product > ol {
+    margin: 15px 0;
+    color: white;
+    list-style: none;
+  }
+  
+  .product > ol > li {
+    padding: 5px 0;
+    color: white;
+  }
+  
+  .product > button {
+    border: 0;
+    margin: 15px 0;
+    background-color: #f1c40f;
+    font-weight: 400;
+  }
+  
+  .product > button:hover {
+    background-color: orange;
+    transition: background-color 1s;
+  }
+  
+  form h3{
+    color: white;
+    text-align: center;
+  }
+  form input:nth-child(1) {
+    padding:5px 5px 5px 5px;
+    margin: 15px 15px 15px 200px
+  }
+  form input:nth-child(2) {
+    padding:5px 5px 5px 5px;
+    margin: 15px 15px 15px 600px
+  }
+  @media screen and (max-width: 600px) {
+    form h3 {
+      color: white;
+      text-align: center;
+    }
+    form input:nth-child(1),
+    form input:nth-child(2) {
+      padding: 5px;
+      margin: 15px auto;
+      display: block;
+      width: 80%;
+    }
+  }
+  
