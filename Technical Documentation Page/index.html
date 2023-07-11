@@ -1,0 +1,581 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Technical Documentation Page</title>
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Java Programming</header>
+        <ul>
+            <li><a class="nav-link" href="#Introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#Features_of_JAVA">Features of JAVA</a></li>
+            <li><a class="nav-link" href="#Explination_of_Features_in_JAVA_Programming_Language">Explination of Features
+                    in JAVA Programming Language</a></li>
+            <li><a class="nav-link" href="#OOPs_Concept_in_Java">OOPs Concept in Java</a></li>
+            <li><a class="nav-link" href="#Applications_of_Java">Applications of Java</a></li>
+            <li><a class="nav-link" href="#Hello_world_Example">Hello world Example</a></li>
+            <li><a class="nav-link" href="#Data_types_in_Java">Data types in Java</a></li>
+            <li><a class="nav-link" href="#Inline_comments">Inline comments</a></li>
+            <li><a class="nav-link" href="#Multi_line_comments">Multi line comments</a></li>
+            <li><a class="nav-link" href="#Java_Variables">Java Variables</a></li>
+            <li><a class="nav-link" href="#Local_variable">Local variable</a></li>
+            <li><a class="nav-link" href="#Instance_variable">Instance variable</a></li>
+            <li><a class="nav-link" href="#Static_variable">Static variable</a></li>
+
+        </ul>
+    </nav>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <article>
+                <p>
+                    Java is a Widely-used Programming language for coding web applications. It has been a popular choice
+                    among developers, with millions of Java applications in use today. Java is a multi-platform,
+                    object-oriented, and network-centric language that can be used as a platfrom in itself. It is fast,
+                    secure, reliable programming language for coding everything from mobile application , web
+                    applications and standalone applications to enterprise softwares.
+                </p>
+
+                <p>
+                <header>History of Java</header>
+                <ul>
+                    <li>Java is an efficient powerful Object-Oriented Programming language developed in the year of 1991
+                        by
+                        James Gosling and his team members at Sun micro systems.</li>
+
+                    <li>James Gosling, Mike Sheridan, and Patrick Naughton initiated the Java language project in June
+                        1991.
+                        The small team of sun engineers called Green Team.</li>
+                    <li>Initially Java is called with a name Oak is a symbol of strength and choosen as a national tree
+                        of
+                        many countries like U.S.A., France, Germany, Romania etc.</li>
+                    <li>In 1995, Oak was renamed as "Java" .</li>
+                    <li>Java is an island of Indonesia where first coffee was produced (called java coffee).</li>
+                    <li> Sun micro systems purchased by Oracle Corporation in the year of 2010.</li>
+                    <li>JDK (Java Development tool Kit) 1.0 released in (January 23, 1996)</li>
+                </ul>
+                </p>
+            </article>
+        </section>
+        <section class="main-section" id="Features_of_JAVA">
+            <header>Features of JAVA</header>
+            <article>
+                <p>This guide assumes you have the following basic background:</p>
+
+                <ol>
+                    <li>Simple</li>
+                    <li>object-oriented</li>
+                    <li>portable</li>
+                    <li>platform independent</li>
+                    <li>secured</li>
+                    <li>robust</li>
+                    <li>Architecture neutral</li>
+                    <li>Interpreted</li>
+                    <li>High performance</li>
+                    <li>Multithreaded</li>
+                    <li>Distributed</li>
+                    <li>Dynamic</li>
+                </ol>
+            </article>
+        </section>
+        <section class="main-section" id="Explination_of_Features_in_JAVA_Programming_Language">
+            <header>Explination of Features in JAVA Programming Language</header>
+            <article>
+                <h3>Simple</h3>
+                <p>Java is very easy to learn, and its syntax is simple, clean and easy to understand. According to Sun,
+                    Java
+                    language is a simple programming language because:
+                <ul>
+                    <li>Java syntax is based on C++ (so easier for programmers to learn it after C++).</li>
+                    <li>Java has removed many complicated and rarely-used features, for example, explicit pointers,
+                        operator
+                        overloading, etc.</li>
+                    <li>There is no need to remove unreferenced objects because there is an Automatic Garbage Collection
+                        in Java.
+                    </li>
+                </ul>
+                </p>
+                <h3>Object-oriented</h3>
+                <p>Java is an object-oriented programming language. Everything in Java is an object. Object-oriented
+                    means we
+                    organize our software as a combination of different types of objects that incorporates both data and
+                    behavior.
+                    Basic concepts of OOPs are:
+                <ul>
+                    <li>Object</li>
+                    <li>Class</li>
+                    <li>Inheritance </li>
+                    <li>Polymorphism </li>
+                    <li>Abstraction </li>
+                    <li>Encapsulation</li>
+                </ul>
+                </p>
+                <h3>Platform Independent</h3>
+                <p>Java is platform independent because it is different from other languages like C,C++, etc. which are
+                    compiled
+                    into platform specific machines while Java is a write once, run anywhere language. A platform is the
+                    hardware or
+                    software environment in which a program runs.<br>
+                    <br>Java code can be executed on multiple platforms, for example, Windows, Linux, Sun Solaris,
+                    Mac/OS, etc. Java
+                    code is compiled by the compiler and converted into bytecode. This bytecode is a
+                    platform-independent code
+                    because it can be run on multiple platforms, i.e., Write Once and Run Anywhere (WORA).
+                </p>
+                <h3>Secured</h3>
+                <p>
+                    Java is best known for its security. With Java, we can develop virus-free systems. Java is secured
+                    because:
+                <ul>
+                    <li>No explicit pointer</li>
+                    <li>Java Programs run inside a virtual machine sandbox</li>
+                    <li>Classloader: Classloader in Java is a part of the Java Runtime Environment(JRE) which is used to
+                        load Java
+                        classes into the Java Virtual Machine dynamically. It adds security by separating the package
+                        for the
+                        classes of the local file system from those that are imported from network sources.</li>
+                    <li>Bytecode Verifier: It checks the code fragments for illegal code that can violate access right
+                        to objects.
+                    </li>
+                    <li>Security Manager: It determines what resources a class can access such as reading and writing to
+                        the local
+                        disk.</li>
+                </ul>
+                Java language provides these securities by default. Some security can also be provided by an application
+                developer
+                explicitly through SSL, JAAS, Cryptography, etc.
+                </p>
+                <h3>Robust</h3>
+                <p>
+                    Robust simply means strong. Java is robust because:
+                <ul>
+                    <li>It uses strong memory management.</li>
+                    <li>There is a lack of pointers that avoids security problems.</li>
+                    <li>There is automatic garbage collection in java which runs on the Java Virtual Machine to get rid
+                        of objects
+                        which are not being used by a Java application anymore.</li>
+                    <li>There are exception handling and the type checking mechanism in Java. All these points make Java
+                        robust.
+                    </li>
+                </ul>
+                </p>
+                <h3>Architecture neutral</h3>
+                <p>
+                    Java is architecture neutral because there are no implementation dependent features, for example,
+                    the size of
+                    primitive types is fixed.<br>
+                    In C programming, int data type occupies 2 bytes of memory for 32-bit architecture and 4 bytes of
+                    memory for
+                    64-bit architecture. However, it occupies 4 bytes of memory for both 32 and 64-bit architectures in
+                    Java.<br>
+
+                </p>
+                <h3>Interpreted</h3>
+                <p>JAVA code is compiled into bytecode, which is then interpreted by the JVM at runtime, providing
+                    flexibility and
+                    enabling dynamic execution.
+                </p>
+                <h3>Portable</h3>
+                <p>
+                    Java is portable because it facilitates you to carry the Java bytecode to any platform. It doesn't
+                    require any
+                    implementation.<br>
+                </p>
+                <h3>High performance</h3>
+                <p>Java is faster than other traditional interpreted programming languages because Java bytecode is
+                    "close" to
+                    native code. It is still a little bit slower than a compiled language (e.g., C++). Java is an
+                    interpreted
+                    language that is why it is slower than compiled languages, e.g., C, C++, etc.</p>
+                <h3>Distributed</h3>
+                <p>Java is distributed because it facilitates users to create distributed applications in Java. RMI and
+                    EJB are used
+                    for creating distributed applications. This feature of Java makes us able to access files by calling
+                    the methods
+                    from any machine on the internet.</p>
+                <h3>Multi-threaded</h3>
+                <p>A thread is like a separate program, executing concurrently. We can write Java programs that deal
+                    with many tasks
+                    at once by defining multiple threads. The main advantage of multi-threading is that it doesn't
+                    occupy memory for
+                    each thread. It shares a common memory area. Threads are important for multi-media, Web
+                    applications, etc.</p>
+                <h3>Dynamic</h3>
+                <p>Java is a dynamic language. It supports dynamic loading of classes. It means classes are loaded on
+                    demand. It
+                    also supports functions from its native languages, i.e., C and C++.
+                    Java supports dynamic compilation and automatic memory management (garbage collection).
+                </p>
+
+            </article>
+        </section>
+        <section class="main-section" id="OOPs_Concept_in_Java">
+            <header>OOPs Concept in Java</header>
+            <article>
+                <p>
+                    Java is an Object-Oriented Programming Language.Everything in JAVA is an
+                    Object.<br><br>Object-oriented means we
+                    organize our software as a combination of different types of objects that incorporates both data and
+                    behaviour.
+                </p>
+                <h3>Principles of Object-Oriented Programming</h3>
+                <p>The object-oriented paradigm supports four major principles ,they are also known as four
+                    pillars of the object-oriented paradigm.</p>
+                <ul>
+                    <li><a href="#encapsulation">Encapsulation</a></li>
+                    <li><a href="#abstraction">Abstraction</a></li>
+                    <li><a href="#inheritance">Inheritance</a></li>
+                    <li><a href="#polymorphism">Polymorphism</a></li>
+                    <li><a href="#class">Class</a></li>
+                    <li><a href="#object">Object</a></li>
+                </ul>
+                <p>
+                <section id="encapsulation">
+                    <h3>1.Encapsulation:</h3>
+                    <ul>
+                        <li> Wrapping data(variables) and methods(code acting on data) within classes in
+                            combination with implementation hiding (through access control) is often called
+                            encapsulation.</li>
+                        <li>In java encapsulation can be achieved using classes.</li>
+                        <li>Using this encapsulation we can provide security for the data inside a class using object
+                            reference, this is called ‘Data hiding’.</li>
+                    </ul><br>
+                </section>
+
+                <section id="abstraction">
+                    <h3>2.Abstraction:</h3>
+                    <ul>
+                        <li>Abstraction means hiding the implementation details from the user and gives only
+                            functionality details.</li>
+                        <li> For example, when you drive your car you do not have to be concerned with the exact
+                            internal working of your car. What you are concerned with is interacting with your car
+                            via its interfaces like steering wheel, brake pedal, accelerator pedal etc. Here the
+                            knowledge you have of your car is abstract.</li>
+                        <li>In java abstraction can be achieved using abstract class and interfaces.</li>
+                    </ul>
+                    <br>
+                </section>
+                <section id="inheritance">
+                    <h3>3.Inheritance:</h3>
+                    <ul>
+                        <li>Inheritance in java is a mechanism in which one object acquires the properties and
+                            behaviors of parent object. It’s essentially creating parent-child relationship between
+                            classes. In java, you will use inheritance mainly for code re-usability and maintainability.
+                        </li>
+                        <li>In java inheritance is also called as IS-A relation ship, and it can be achieved using
+                            “extends” key word.</li>
+                    </ul><br>
+                </section>
+                <section id="polymorphism">
+                    <h3>4.Polymorphism:</h3>
+                    <ul>
+                        <li>The word polymorphism came from two greek words ‘poly’ meaning ‘many’ and
+                            ‘morphos’ meaning ‘forms'.</li>
+                        <li>Polymorphism represents the ability to assume several different forms.</li>
+                        <li>Polymorphism is the ability by which, we can create functions or reference variables
+                            which behaves differently in different programmatic context.</li>
+                        <li>In java language, polymorphism is essentially considered into two versions:
+                            <ul class="numbered-list">
+                                <li>Compile time polymorphism (static binding or method overloading)</li>
+                                <li>Runtime polymorphism (dynamic binding or method overriding)</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </section>
+                </p>
+                <section id="class">
+                    <h3>5.Class:</h3>
+                    Collection of objects is called class. It is a logical entity. A class
+                    can also be defined as a blueprint from which you can create an
+                    individual object. Class doesn't consume any space.
+                </section>
+                </p>
+                <section id="object">
+                    <h3>6.Object:</h3>
+                    Any entity that has state and behavior is known as an object.
+                    For example, a chair, pen, table, keyboard, bike, etc. It can be physical
+                    or logical. An Object can be defined as an instance of a class. An object
+                    contains an address and takes up some space in memory. Objects can
+                    communicate without knowing the details of each other's data or code.
+                    The only necessary thing is the type of message accepted and the type
+                    of response returned by the objects.
+                </section>
+                </p>
+
+            </article>
+        </section>
+        <section class="main-section" id="Applications_of_Java">
+            <header>Applications of Java</header>
+            <article>
+                <p>Types of Java Application<br>There are so many types of applications that can
+                    be created using Java programming, it gives lot of possibilities when it comes to create
+                    applications.
+                </p>
+                <ul>
+                    <li>Standalone Applications</li>
+                    <li>Web Applications</li>
+                    <li>Enterprise Applications</li>
+                    <li>Mobile Applications</li>
+                    <li>Scientific and Numerical Computing</li>
+                    <li>Financial Applications</li>
+                    <li>Internt of Things(IoT)</li>
+                    <li>Big Data Technologies</li>
+                </ul>
+                <p>
+
+            </article>
+        </section>
+        <section class="main-section" id="Hello_world_Example">
+            <header>Hello world Example</header>
+            <p>
+                We will create a file called <span style="color: red;">Main.java</span> and we use the following code to
+                print
+                "Hello learnwithvaigandla" to the screen.
+            <div class="lwv-example">
+                <p>Main.java</p>
+                <pre tabindex="0"><code><span>public</span> <span>class</span> <span>Main</span> <span>{</span>
+              <span>public</span> <span>static</span> <span>void</span> <span>main</span><span>(</span><span>String</span><span>[</span><span>]</span> args<span>)</span> <span>{</span>
+                <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span><span >"Hello learnwithvaigandla"</span><span>)</span><span>;</span>
+              <span>}</span>
+            <span>}</span>
+            </code></pre>
+            </div>
+            <div class="lwv-output">
+                <p>Output</p>
+                <pre class="lwv-white language-java"
+                    tabindex="0"><code class="language-java"><span>Hello learnwithvaigandla</span></code></pre>
+            </div>
+        </section>
+        <section class="main-section" id="Data_types_in_Java">
+            <header>Data types in Java</header>
+            <p>Data types represent the different values to be stored in the variable.<b>There are two forms of Data
+                    types in
+                    Java</b></p>
+            <ul>
+                <li><b></b>Primitive data type</li>
+                <li><b></b>Non-primitive data type</li>
+            </ul>
+            <!--Table-->
+            <div class="table-container">
+                <table border="1">
+                    <tr>
+                        <th>Data Type</th>
+                        <th>Size (in bytes)</th>
+                        <th>Range</th>
+                    </tr>
+                    <tr>
+                        <td>byte</td>
+                        <td>1</td>
+                        <td>-128 to 127</td>
+                    </tr>
+                    <tr>
+                        <td>short</td>
+                        <td>2</td>
+                        <td>-32,768 to 32,767</td>
+                    </tr>
+                    <tr>
+                        <td>int</td>
+                        <td>4</td>
+                        <td>-2,147,483,648 to 2,147,483,647</td>
+                    </tr>
+                    <tr>
+                        <td>long</td>
+                        <td>8</td>
+                        <td>-9,223,372,036,854,775,808 to 9,223,372,036,854,775,807</td>
+                    </tr>
+                    <tr>
+                        <td>float</td>
+                        <td>4</td>
+                        <td>Approximately ±3.40282347E+38F</td>
+                    </tr>
+                    <tr>
+                        <td>double</td>
+                        <td>8</td>
+                        <td>Approximately ±1.7976931348623157E+308</td>
+                    </tr>
+                    <tr>
+                        <td>char</td>
+                        <td>2</td>
+                        <td>0 to 65,535 (unsigned)</td>
+                    </tr>
+                    <tr>
+                        <td>boolean</td>
+                        <td>1</td>
+                        <td>true or false</td>
+                    </tr>
+                </table>
+
+        </section>
+        <section class="main-section" id="Inline_comments">
+            <header>Inline comments</header>
+            <article>
+                <p>To write a single-line comment just add a ‘//’ at the start of the line.</p>
+                <div class="lwv-example">
+                    <p>Example</p>
+                    <pre tabindex="0"><code><span>public</span> <span>class</span> <span>Main</span> <span>{</span>
+              <span>public</span> <span>static</span> <span>void</span> <span>main</span><span>(</span><span>String</span><span>[</span><span>]</span> args<span>)</span> <span>{</span>
+                <span>//This is a single line comment</span>
+                <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span><span >"Hello learnwithvaigandla"</span><span>)</span><span>;</span>
+              <span>}</span>
+            <span>}</span>
+            </code></pre>
+                </div>
+                <div class="lwv-output">
+                    <p>Output</p>
+                    <pre class="lwv-white language-java"
+                        tabindex="0"><code class="language-java"><span>Hello learnwithvaigandla</span></code></pre>
+                </div>
+            </article>
+
+        </section>
+        <section class="main-section" id="Multi_line_comments">
+            <header>Multi line comments</header>
+            <article>
+                <p>To write a multi-line comment just add a ‘/*…….*/’ at the start of the line.</p>
+                <div class="lwv-example">
+                    <p>Example</p>
+                    <pre tabindex="0"><code><span>public</span> <span>class</span> <span>Main</span> <span>{</span>
+              <span>public</span> <span>static</span> <span>void</span> <span>main</span><span>(</span><span>String</span><span>[</span><span>]</span> args<span>)</span> <span>{</span>
+                <span>/*This</span>
+                <span>is</span>
+                <span>a</span>
+                <span>Multi-line</span>
+                <span>comment</span>
+                <span>*/</span>
+                <span>System</span><span>.</span>out<span>.</span><span>println</span><span>(</span><span >"Hello learnwithvaigandla"</span><span>)</span><span>;</span>
+              <span>}</span>
+            <span>}</span>
+            </code></pre>
+                </div>
+                <div class="lwv-output">
+                    <p>Output</p>
+                    <pre class="lwv-white language-java"
+                        tabindex="0"><code class="language-java"><span>Hello learnwithvaigandla</span></code></pre>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Java_Variables">
+            <header>Java Variables</header>
+            <article>
+                <p>Variables are containers that store information that can be manipulated and referenced later by the
+                    programmer
+                    within the code. Java variables have a data type associated with them which can tell us about the
+                    size and
+                    layout of the variable’s memory.<br></p>
+                <div class="lwv-output">
+                    <pre class="lwv-white language-java"
+                        tabindex="0"><code class="language-java"><span>datatype variable = value</span></code></pre>
+                </div>
+                <b>There are three types of comments:</b>
+                <ul>
+                    <li><b></b>Local variable</li>
+                    <li><b></b>Instance variable</li>
+                    <li><b></b>Class/static variable</li>
+                </ul>
+            </article>
+        </section>
+        <section class="main-section" id="Local_variable">
+            <header>Local variable</header>
+            <article>
+                <p>A variable which is declared inside the method is called local variable.Inside the method body, A
+                    local variable
+                    lies only within the method or constructor within which it is created and other methods in the class
+                    cannot
+                    access it. <br>Local variable is
+                    declared using the static keyword.</p>
+                <div class="lwv-example">
+                    <p>Example</p>
+                    <pre tabindex="0"><code><span>public class LocalVariableEx {</span>
+    <span>public void localVariable() {</span>
+      <span>String name = "Tony";</span>
+      <span>int marks = 99;</span>
+      <span>System.out.println(name + " scored " + marks + "%.");</span>
+  <span>}</span>
+            
+<span>public static void main(String[] args) {</span>
+    <span>LocalVariableEx lve = new LocalVariableEx();</span>
+    <span>lve.localVariable();</span>
+  <span>}</span>
+<span>}</span>
+          </code></pre>
+                    <button class="copy-button">copy</button>
+
+                </div>
+                <div class="lwv-output">
+                    <p>Output</p>
+                    <pre class="lwv-white language-java"
+                        tabindex="0"><code class="language-java"><span>Tony scored 99%.</span></code></pre>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Instance_variable">
+            <header>Instance variable</header>
+            <article>
+                <p>A variable which is declared inside the class but outside the method is called instance variable. It
+                    is not
+                    declared as static.It is similar to a static variable except that it is declared without using the
+                    keyword
+                    static. These variables are accessible by all methods or constructors that are inside the class.</p>
+                <div class="lwv-example">
+                    <p>Example</p>
+                    <pre tabindex="0"><code><span>public class InstanceVariableEx {</span>
+    <span>String name = "Vaigandla Durgesh";</span>
+    <span>// Instance variable declaration</span>
+    
+    <span>public void Printname() {</span>
+        <span>System.out.println("Name: " + name);</span>
+        <span>// Accessing the instance variable</span>
+    <span>}</span>
+    
+    <span>public static void main(String[] args) {</span>
+        <span>InstanceVariableEx ive = new InstanceVariableEx();</span>
+        <span>ive.Printname();</span>
+    <span>}</span>
+  <span>}</span>
+</code></pre>
+                    <button class="copy-button">Copy</button>
+                </div>
+                <div class="lwv-output">
+                    <p>Output</p>
+                    <pre class="lwv-white language-java"
+                        tabindex="0"><code class="language-java"><span>Name: Vaigandla Durgesh</span></code></pre>
+                </div>
+            </article>
+        </section>
+        <section class="main-section" id="Static_variable">
+            <header>Static variable</header>
+            <article>
+                <p>A variable which is declared as static is called static variable. It cannot be local, It is similar
+                    to a instance
+                    variable except that it is declared using the keyword static. These variables are accessible by all
+                    methods or
+                    constructors that are inside the class. </p>
+                <div class="lwv-example">
+                    <p>Example</p>
+                    <pre tabindex="0"><code><span>public class StaticVariableEx {</span>
+    <span>static int number = 14;</span>
+              
+    <span>public static void main(String[] args) {</span>
+        <span>number++;</span>
+        <span>System.out.println("Number: " + number);</span>
+    <span>}</span>
+<span>}</span>
+          </code></pre>
+                    <button class="copy-button">Copy</button>
+                </div>
+                <div class="lwv-output">
+                    <p>Output</p>
+                    <pre class="lwv-white language-java"
+                        tabindex="0"><code class="language-java"><span>Number: 15</span></code></pre>
+                </div>
+            </article>
+        </section>
+    </main>
+    </body>
+
+</html>
